@@ -163,8 +163,6 @@ class Calculator(object):
 if __name__ == '__main__':
     calc = Calculator()
     print("*******************************************************")
-    print("*                   Under Constraction                *")
-    print("* Please Note My Calculater Can Only Support Integers *")
     print("*                    Python Calculator                *")
     print("*******************************************************")
     print()
