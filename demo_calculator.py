@@ -98,7 +98,7 @@ class Calculator(object):
                     list_ref = self.get_last_position()
                     self.add_to_previous_num(num, list_ref)
                 else:
-                    raise Exception("something is broken")
+                    raise Exception("something went wrong")
 
     def add_to_previous_num(self, num, empty_list):
         try:
@@ -166,7 +166,7 @@ if __name__ == '__main__':
     print("*                    Python Calculator                *")
     print("*******************************************************")
     print()
-    print("You're limited to use below oparators:\n'+'     Addition\n'-'     Subtraction\n'*'     Multiplication\n'/'     Division\n'^'     Exponentiation")
+    print("You're limited to use the below oparators:\n'+'     Addition\n'-'     Subtraction\n'*'     Multiplication\n'/'     Division\n'^'     Exponentiation")
     print()
     calculator_on = True
     while calculator_on:
